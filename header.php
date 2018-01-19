@@ -39,3 +39,8 @@
 						<a href = "http://hard-athlete.ru"></a>
 					</div>
 					<div class = "menu">
+						<?php wp_nav_menu(array('theme_location'  => 'header_menu', 'items_wrap' => '<ul>%3$s</ul>', 'container' => false)); ?>
+					</div>
+				</div>
+			</div>
+		</div>
